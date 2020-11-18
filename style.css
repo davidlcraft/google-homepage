@@ -1,18 +1,120 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  min-height: 100vh;
 }
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;  
-  }
-  
-  .search_field {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-  }
+
+.centered {
+  margin: auto;
+}
+
+.googlelogo {
+  margin-top: 180px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  text-align: center;
+  padding: 10px;
+}
+
+.search_button {
+  display: inline-block;
+  margin: auto;
+}
+
+.searchbox {
+  display: block;
+  text-align: center;
+}
+
+.navleft {
+  display: inline-block;
+  float: left;
+}
+
+.navright {
+  display: inline-block;
+  float: right;
+}
+
+.login {
+  color: #fff;
+  cursor: default;
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+.footleft {
+  float: left;
+}
+
+.footright {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+li a {
+  color: rgb(68, 68, 70);
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.dot-menu {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  background-position: -132px -38px;
+  opacity: 0.55;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  -webkit-background-size: 528px 68px;
+  background-size: 528px 68px;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+
+.dot-menu:hover {
+  text-decoration: none;
+}
